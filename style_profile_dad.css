@@ -1,0 +1,30 @@
+/* Basic page look */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #0075fc, #00b5fc, #0075fc);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #006eff;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #00ff40;
+  border: 2px solid #0400ff;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+a:hover {
+  background-color: #ffffff;
+  color: #5eff86;
+}
